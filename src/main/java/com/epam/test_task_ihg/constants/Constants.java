@@ -11,4 +11,6 @@ public class Constants {
     public final static String COMMAND_IS_NOT_CORRECT = "Command is not correct";
     public final static String PARAM_DELIMETER = "-";
     public final static String EXIT_MESSAGE = "exit-";
+    public final static String BREAKFAST_NOT_INCLUDED = "breakfast_not_included";
+    public final static String BREAKFAST_INCLUDED = "breakfast_included";
 }
