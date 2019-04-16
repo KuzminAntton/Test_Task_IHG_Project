@@ -6,15 +6,15 @@ import java.util.Comparator;
 public class Hotel implements Serializable {
     private String name = null;
     private String type = null;
-    private String price = null;
+    private double price = 0;
     private String rate = null;
-    private boolean breakfast = false;
+    private String breakfast = null;
 
     public Hotel() {
 
     }
 
-    public Hotel(String name, String type, String price, String rate, boolean breakfast) {
+    public Hotel(String name, String type, double price, String rate, String breakfast) {
         this.name = name;
         this.type = type;
         this.price = price;
@@ -39,11 +39,11 @@ public class Hotel implements Serializable {
         this.type = type;
     }
 
-    public String getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(String price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 
@@ -55,11 +55,11 @@ public class Hotel implements Serializable {
         this.rate = rate;
     }
 
-    public boolean isBreakfast() {
+    public String getBreakfast() {
         return breakfast;
     }
 
-    public void setBreakfast(boolean breakfast) {
+    public void setBreakfast(String breakfast) {
         this.breakfast = breakfast;
     }
 
@@ -71,16 +71,19 @@ public class Hotel implements Serializable {
 
 
         if(name != null ? !name.equals(hotel.name) : hotel.name != null) return false;
-        if(price != null ? !price.equals(hotel.price) : hotel.price != null) return false;
+        if(price != 0 ? !(price == hotel.price) : hotel.price != 0) return false;
         if(type != null ? !type.equals(hotel.type) : hotel.type != null) return false;
         if(rate != null ? !rate.equals(hotel.rate) : hotel.rate != null) return false;
-        return breakfast && hotel.breakfast;
+        return breakfast != null ? breakfast.equals(hotel.breakfast) : hotel.breakfast != null;
 
     }
 
     @Override
     public int hashCode() {
         int result = name != null ? name.hashCode() : 0;
+        result = 31 * result + (type != null ? type.hashCode() : 0);
+        result = 31 * result + (int) price;
+        result = 31 * result + (rate != null ? rate.hashCode() : 0);
         return result;
     }
 
@@ -89,7 +92,7 @@ public class Hotel implements Serializable {
         return
                 "       " + name  +
                 ", " + type +
-                ", " + price  +
+                ", " + price  + " $" +
                 ", " + rate  +
                 ", " + breakfast;
     }
@@ -129,11 +132,11 @@ public class Hotel implements Serializable {
 
         public int compare(Hotel hotel1, Hotel hotel2) {
 
-            String hotelprice1 = hotel1.getPrice().toUpperCase();
-            String hotelprice2 = hotel2.getPrice().toUpperCase();
+            double hotelprice1 = hotel1.getPrice();
+            double hotelprice2 = hotel2.getPrice();
 
             //ascending order
-            return hotelprice1.compareTo(hotelprice2);
+            return Double.compare(hotelprice1, hotelprice2);
 
         }
 
