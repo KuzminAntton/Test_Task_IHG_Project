@@ -1,0 +1,33 @@
+
+“Hilton”,       Hotel,   75.99 $,  9.3,  breakfast_included
+
+“Hotel Jonico”,     Hotel,   85.07 $,  8.4,  breakfast_not_included
+
+“Sofitel Rome Villa Borghese”,  Hotel,   85.34 $,  5.9,  breakfast_included
+
+“Hotel Cosmopolita”,    Hotel,   90.00 $,  8.0,  breakfast_not_included
+
+“Crowne Plaza Rome”,    Hotel,   118.30 $,  7.9,  breakfast_not_included
+
+“Ostello Bello”,     Hostel,  25.99 $,  8.3,  breakfast_not_included
+
+“Hostel Urban Navigli”,   Hostel,  27.00 $,  7.2,  breakfast_not_included
+
+“Un posto a Milano”,    Hostel,  35.65 $,  7.6,  breakfast_not_included
+
+“Hostel Colours”,     Hostel,  45.00 $,  6.9,  breakfast_included
+
+ “Venezia Apartment”,    Apartment,  45.00 $,  9.5,  breakfast_not_included
+
+“Apartment Amelie”,    Apartment,  47.00 $,  6.3,  breakfast_not_included
+
+“Brera Apartments”,    Apartment,  47.35 $,  6.4,  breakfast_not_included
+
+“Aparthotel Duomo”,    Apartment,  50.50 $,  9.7,  breakfast_not_included
+
+“The Loft Apartment - Milan”,  Apartment,  55.60 $,  6.3,  breakfast_not_included
+
+“Monte Napoleone Apartment”,  Apartment,  57.99 $,  8.5,  breakfast_not_included
+
+“Apartament San Siro”,    Apartment,  95.00 $,  8.1,  breakfast_not_included
+
