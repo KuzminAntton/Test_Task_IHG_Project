@@ -12,7 +12,6 @@ public class HotelParserTxt {
     public static List<Hotel> parse(File file) throws IOException {
 
         List<Hotel> hotelsList = new ArrayList<Hotel>();
-        boolean breakfast;
 
         BufferedReader reader = new BufferedReader(new FileReader(file));
         String currentLine;
@@ -23,14 +22,14 @@ public class HotelParserTxt {
                 splittedLine[i] = splittedLine[i].trim();
             }
             if(splittedLine.length == 5) {
-                breakfast = splittedLine[4].trim().equals("breakfast_included");
+
 
                 hotelsList.add(new Hotel(
                         splittedLine[0],
                         splittedLine[1],
-                        splittedLine[2],
+                        Double.parseDouble(splittedLine[2].replace("$", "")),
                         splittedLine[3],
-                        breakfast
+                        splittedLine[4]
                 ));
 
             }
