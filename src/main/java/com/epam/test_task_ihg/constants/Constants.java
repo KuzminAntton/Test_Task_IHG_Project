@@ -1,8 +1,9 @@
 package com.epam.test_task_ihg.constants;
 
 public class Constants {
-    public final static String PROPERTY_PATH = "/home/anton/Anton/Test_IHG_Project/src/main/resources/hotelsList.properties";
+    public final static String PROPERTY_PATH = "src\\main\\resources\\hotelsList.properties";
     public final static String PROPERTY_NAME_PATH = "path";
+    public final static String PROPERTY_NAME_PATH_JSON = "jsonPath";
     public final static String HOTELS_THAT_I_COULD_FOUND = "Hotels that I could found.";
     public final static String ALL_GROUPS_THAT_I_COULD_FOUND = "All groups that I could found.";
     public final static String HOTELS_THAT_I_COULD_FOUND_IN_THREE_PRICE_RANGES = "Hotels that I could found in three price ranges.";
@@ -13,4 +14,8 @@ public class Constants {
     public final static String EXIT_MESSAGE = "exit-";
     public final static String BREAKFAST_NOT_INCLUDED = "breakfast_not_included";
     public final static String BREAKFAST_INCLUDED = "breakfast_included";
+    public final static String HOTEL = "Hotel";
+    public final static String APARTMENT = "Apartment";
+    public final static String HOSTEL = "Hostel";
+    public final static String PATH_TOJSON = "C:\\TestTask\\Test_Task_IHG_Project\\src\\main\\resources\\hotels.json";
 }
