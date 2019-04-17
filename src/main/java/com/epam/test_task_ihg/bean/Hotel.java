@@ -6,8 +6,8 @@ import java.util.Comparator;
 public class Hotel implements Serializable {
     private String name = null;
     private String type = null;
-    private double price = 0;
-    private String rate = null;
+    private double price;
+    private String rating = null;
     private String breakfast = null;
 
     public Hotel() {
@@ -18,7 +18,7 @@ public class Hotel implements Serializable {
         this.name = name;
         this.type = type;
         this.price = price;
-        this.rate = rate;
+        this.rating = rate;
         this.breakfast = breakfast;
     }
 
@@ -47,12 +47,12 @@ public class Hotel implements Serializable {
         this.price = price;
     }
 
-    public String getRate() {
-        return rate;
+    public String getRating() {
+        return rating;
     }
 
-    public void setRate(String rate) {
-        this.rate = rate;
+    public void setRating(String rating) {
+        this.rating = rating;
     }
 
     public String getBreakfast() {
@@ -73,7 +73,7 @@ public class Hotel implements Serializable {
         if(name != null ? !name.equals(hotel.name) : hotel.name != null) return false;
         if(price != 0 ? !(price == hotel.price) : hotel.price != 0) return false;
         if(type != null ? !type.equals(hotel.type) : hotel.type != null) return false;
-        if(rate != null ? !rate.equals(hotel.rate) : hotel.rate != null) return false;
+        if(rating != null ? !rating.equals(hotel.rating) : hotel.rating != null) return false;
         return breakfast != null ? breakfast.equals(hotel.breakfast) : hotel.breakfast != null;
 
     }
@@ -83,7 +83,7 @@ public class Hotel implements Serializable {
         int result = name != null ? name.hashCode() : 0;
         result = 31 * result + (type != null ? type.hashCode() : 0);
         result = 31 * result + (int) price;
-        result = 31 * result + (rate != null ? rate.hashCode() : 0);
+        result = 31 * result + (rating != null ? rating.hashCode() : 0);
         return result;
     }
 
@@ -93,7 +93,7 @@ public class Hotel implements Serializable {
                 "       " + name  +
                 ", " + type +
                 ", " + price  + " $" +
-                ", " + rate  +
+                ", " + rating +
                 ", " + breakfast;
     }
 
@@ -117,8 +117,8 @@ public class Hotel implements Serializable {
 
         public int compare(Hotel hotel1, Hotel hotel2) {
 
-            String hotelRate1 = hotel1.getRate().toUpperCase();
-            String hotelRate2 = hotel2.getRate().toUpperCase();
+            String hotelRate1 = hotel1.getRating().toUpperCase();
+            String hotelRate2 = hotel2.getRating().toUpperCase();
 
             //ascending order
             return hotelRate2.compareTo(hotelRate1);
