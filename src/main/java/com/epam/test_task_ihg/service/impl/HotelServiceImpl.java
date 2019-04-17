@@ -42,22 +42,22 @@ public class HotelServiceImpl implements HotelService {
     }
 
     public void printHotels() {
-        System.out.println("Hotel :");
-        for (Hotel hotel : getHotelsByType("Hotel")){
+        System.out.println(Constants.HOTEL + " :");
+        for (Hotel hotel : getHotelsByType(Constants.HOTEL)){
             System.out.println(hotel);
         }
     }
 
     public void printApartments() {
-        System.out.println("Apartment :");
-        for (Hotel hotel : getHotelsByType("Apartment")){
+        System.out.println(Constants.APARTMENT + " :");
+        for (Hotel hotel : getHotelsByType(Constants.APARTMENT)){
             System.out.println(hotel);
         }
     }
 
     public void printHostel() {
-        System.out.println("Hostel :");
-        for (Hotel hotel : getHotelsByType("Hostel")){
+        System.out.println(Constants.HOSTEL + " :");
+        for (Hotel hotel : getHotelsByType(Constants.HOSTEL)){
             System.out.println(hotel);
         }
     }
@@ -69,7 +69,6 @@ public class HotelServiceImpl implements HotelService {
                 bufferList.add(hotel);
             }
         }
-//        Collections.sort(bufferList, Hotel.HotelNameComparator);
         Collections.sort(bufferList, Hotel.HotelPriceComparator);
 
         return bufferList;
