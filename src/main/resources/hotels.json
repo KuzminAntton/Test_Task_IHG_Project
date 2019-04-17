@@ -1,23 +1,23 @@
-    [       {
-                  "name": "The Loft Apartment - Milan",
-                  "type": "Apartment",
-                  "price": 55.60,
-                  "rating": "6.3",
-                  "breakfast": "breakfast_not_included"
-            },
-            {
-                  "name": "Monte Napoleone Apartment",
-                  "type": "Apartment",
-                  "price": 57.99,
-                  "rating": "8.5",
-                  "breakfast": "breakfast_not_included"
-            },
-            {
-                "name": "Monte Napoleone Apartment",
-                "type": "Apartment",
-                "price": 57.99,
-                "rating": "8.5",
-                "breakfast": "breakfast_not_included"
+    [             {
+                   "name": "The Loft Apartment - Milan",
+                   "type": "Apartment",
+                   "price": 55.60,
+                   "rating": "6.3",
+                   "breakfast": "breakfast_not_included"
+                   },
+                   {
+                    "name": "Monte Napoleone Apartment",
+                    "type": "Apartment",
+                    "price": 57.99,
+                    "rating": "8.5",
+                    "breakfast": "breakfast_not_included"
+                  },
+                  {
+                    "name": "Monte Napoleone Apartment",
+                   "type": "Apartment",
+                    "price": 57.99,
+                    "rating": "8.5",
+                    "breakfast": "breakfast_not_included"
                    },
                     {
                      "name": "Crowne Plaza Rome",
