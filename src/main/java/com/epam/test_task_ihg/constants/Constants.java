@@ -17,5 +17,5 @@ public class Constants {
     public final static String HOTEL = "Hotel";
     public final static String APARTMENT = "Apartment";
     public final static String HOSTEL = "Hostel";
-    public final static String PATH_TOJSON = "C:\\TestTask\\Test_Task_IHG_Project\\src\\main\\resources\\hotels.json";
+    public final static String PATH_TOJSON = "src\\main\\resources\\hotels.json";
 }
