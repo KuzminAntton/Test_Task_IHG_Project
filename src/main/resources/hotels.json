@@ -1,0 +1,115 @@
+ {
+     "Hotel1" : {
+      "name": "The Loft Apartment - Milan",
+      "type": "Apartment",
+      "price": "55.60 $",
+      "rating": "6.3",
+      "breakfast": "breakfast_not_included"
+    },
+   "Hotel2" : {
+     "name": "Monte Napoleone Apartment",
+     "type": "Apartment",
+     "price": "57.99 $",
+     "rating": "8.5",
+     "breakfast": "breakfast_not_included"
+   },
+   "Hotel3" : {
+     "name": "Crowne Plaza Rome",
+     "type": "Hotel",
+     "price": "118.30 $",
+     "rating": "7.9",
+     "breakfast": "breakfast_not_included"
+   },
+   "Hotel4" : {
+     "name": "Hotel Jonico",
+     "type": "Hotel",
+     "price": "85.07 $",
+     "rating": "8.4",
+     "breakfast": "breakfast_not_included"
+   },
+   "Hotel5" : {
+     "name": "Sofitel Rome Villa Borghese",
+     "type": "Hotel",
+     "price": "85.34 $",
+     "rating": "5.9",
+     "breakfast": "breakfast_included"
+   },
+   "Hotel6" : {
+     "name": "Ostello Bello",
+     "type": "Hostel",
+     "price": "25.99 $",
+     "rating": "8.3",
+     "breakfast": "breakfast_not_included"
+   },
+   "Hotel7" : {
+     "name": "Venezia Apartment",
+     "type": "Apartment",
+     "price": "45.00 $",
+     "rating": "9.5",
+     "breakfast": "breakfast_not_included"
+   },
+   "Hotel8" : {
+     "name": "Hotel Cosmopolita",
+     "type": "Hotel",
+     "price": "90.00 $",
+     "rating": "8.0",
+     "breakfast": "breakfast_not_included"
+   },
+   "Hotel9" : {
+     "name": "Hilton",
+     "type": "Hotel",
+     "price": "75.99 $",
+     "rating": "9.3",
+     "breakfast": "breakfast_included"
+   },
+   "Hotel10" : {
+     "name": "Apartment Amelie",
+     "type": "Apartment",
+     "price": "47.00 $",
+     "rating": "6.3",
+     "breakfast": "breakfast_not_included"
+   },
+   "Hotel11" : {
+     "name": "Brera Apartments",
+     "type": "Apartment",
+     "price": "47.35 $",
+     "rating": "6.4",
+     "breakfast": "breakfast_not_included"
+   },
+   "Hotel12" : {
+     "name": "Hostel Urban Navigli",
+     "type": "Hostel",
+     "price": "27.00 $",
+     "rating": "7.2",
+     "breakfast": "breakfast_not_included"
+   },
+   "Hotel13" : {
+     "name": "Un posto a Milano",
+     "type": "Hostel",
+     "price": "35.65 $",
+     "rating": "7.6",
+     "breakfast": "breakfast_not_included"
+   },
+   "Hotel14" : {
+     "name": "Hostel Colours",
+     "type": "Hostel",
+     "price": "45.00 $",
+     "rating": "6.9",
+     "breakfast": "breakfast_included"
+   },
+   "Hotel15" : {
+     "name": "Aparthotel Duomo",
+     "type": "Apartment",
+     "price": "50.50 $",
+     "rating": "9.7",
+     "breakfast": "breakfast_not_included"
+   },
+   "Hotel16" : {
+     "name": "Apartament San Siro",
+     "type": "Apartment",
+     "price": "95.00 $",
+     "rating": "8.1",
+     "breakfast": "breakfast_not_included"
+   }
+
+}
