@@ -19,10 +19,6 @@ public class HotelsParserJson {
 
         hotelList = g.fromJson(jsonString, new TypeToken<List<Hotel>>(){}.getType());
 
-//        for(Hotel hotel : hotelList) {
-//            System.out.println(hotel.getName() + "\n");
-//        }
-
         return hotelList;
     }
 
