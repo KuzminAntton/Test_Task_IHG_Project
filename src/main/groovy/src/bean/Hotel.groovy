@@ -51,6 +51,6 @@ class Hotel implements Serializable{
                 type + " " +
                 price + " \$ " +
                 rating + " " +
-                breakfast + " groovy"
+                breakfast
     }
 }
